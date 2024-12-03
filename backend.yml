@@ -13,7 +13,7 @@ Parameters:
 
 
 Resources:
-    AppRunnerService:
+  AppRunnerService:
     Type: AWS::AppRunner::Service
     Properties:
       ServiceName: !Sub "Hotel-${AWS::StackName}-${AWS::Region}"
